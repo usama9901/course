@@ -1,0 +1,127 @@
+.Headercontent
+{
+    background-image: url("../Images/photo.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* position: relative; */
+}
+.Header
+{
+    position: fixed;
+    top:30px;
+    width: 95%;
+    display: flex;  
+    margin: 0 50px;
+    background-color: #ffffff;
+    height: 75px;
+    z-index: 100;
+}
+.logo
+{
+    width:20%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo h2{
+    margin:12px 15px;
+}
+.list
+{
+    width:50%;
+    position: relative;
+    margin: auto;
+}
+.list ul 
+{
+    display: flex;
+    gap:10%;
+    justify-content: center;
+    list-style-type:none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+.list ul li:hover 
+{
+    color:#ffb606;
+    transform: scale(1.2);
+}
+.button
+{
+    position: relative;
+    right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    width:20%;
+}
+.login 
+{
+    height:40px !important;
+    width:100px !important;
+    background-color: #ffb4069c !important;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 10px !important;
+}
+.space 
+{
+    height:155px;
+}
+span{
+    background-color: #ffb606;
+}
+.centerHeader
+{
+    margin-top:100px;
+    display: flex ;
+    gap:20px;
+    justify-content: center;
+    padding-bottom: 10.8em;
+}
+.next, .previous
+{
+    margin: auto;
+}
+.carddata
+{
+    display: flex ;
+    gap:20px;
+    justify-content: center;
+}
+.card 
+{
+   width:350px;
+   height:145px;
+    background-color: #1a1a1a;
+   
+}
+.card h2
+{
+    margin:30px 0 10px;
+    color: #ffffff;
+}
+.card p{
+    margin:10px 0 ;
+    color: #ffffff;
+}
+.card p:hover
+{
+    color: black;
+    transform: scale(1.2);
+}
+
+.card:hover
+{
+    background-color: #ffb606 !important;
+    cursor: pointer;
+}
+.custom_icon
+{
+    position: relative; 
+    font-size: 35px !important;
+    color: white;
+    inset: 20px auto 0;
+}
